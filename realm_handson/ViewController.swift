@@ -7,12 +7,23 @@
 //
 
 import UIKit
+import Realm
 
 class ViewController: UIViewController {
-
+    let realm = RLMRealm.defaultRealm()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        let book = Book()
+        book.isbn = "999999"
+        book.name = "realm sample"
+        book.price = 100
+        
+        realm.beginWriteTransaction()
+        realm.addObject(book)
+        realm.commitWriteTransaction()
     }
 
     override func didReceiveMemoryWarning() {

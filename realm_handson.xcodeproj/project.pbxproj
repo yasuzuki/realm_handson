@@ -15,6 +15,8 @@
 		50214E611A9629560031EDAD /* realm_handsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50214E601A9629560031EDAD /* realm_handsonTests.swift */; };
 		50214E871A962B560031EDAD /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50214E7A1A962AB70031EDAD /* Realm.framework */; };
 		50214E891A962B880031EDAD /* Realm.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50214E7A1A962AB70031EDAD /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		50214E8D1A962C9E0031EDAD /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50214E8C1A962C9E0031EDAD /* Book.swift */; };
+		50214E8F1A9631A10031EDAD /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 50214E8E1A9631A10031EDAD /* libc++.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +117,8 @@
 		50214E5F1A9629560031EDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50214E601A9629560031EDAD /* realm_handsonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realm_handsonTests.swift; sourceTree = "<group>"; };
 		50214E6A1A962AB70031EDAD /* Realm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Realm.xcodeproj; path = "../../../../Downloads/realm-cocoa-master/Realm.xcodeproj"; sourceTree = "<group>"; };
+		50214E8C1A962C9E0031EDAD /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		50214E8E1A9631A10031EDAD /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50214E8F1A9631A10031EDAD /* libc++.dylib in Frameworks */,
 				50214E871A962B560031EDAD /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +144,7 @@
 		50214E3C1A9629560031EDAD = {
 			isa = PBXGroup;
 			children = (
+				50214E8E1A9631A10031EDAD /* libc++.dylib */,
 				50214E471A9629560031EDAD /* realm_handson */,
 				50214E5D1A9629560031EDAD /* realm_handsonTests */,
 				50214E461A9629560031EDAD /* Products */,
@@ -164,6 +170,7 @@
 				50214E511A9629560031EDAD /* Images.xcassets */,
 				50214E531A9629560031EDAD /* LaunchScreen.xib */,
 				50214E481A9629560031EDAD /* Supporting Files */,
+				50214E8C1A962C9E0031EDAD /* Book.swift */,
 			);
 			path = realm_handson;
 			sourceTree = "<group>";
@@ -377,6 +384,7 @@
 			files = (
 				50214E4D1A9629560031EDAD /* ViewController.swift in Sources */,
 				50214E4B1A9629560031EDAD /* AppDelegate.swift in Sources */,
+				50214E8D1A962C9E0031EDAD /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
