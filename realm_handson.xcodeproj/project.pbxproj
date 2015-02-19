@@ -13,6 +13,8 @@
 		50214E521A9629560031EDAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50214E511A9629560031EDAD /* Images.xcassets */; };
 		50214E551A9629560031EDAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50214E531A9629560031EDAD /* LaunchScreen.xib */; };
 		50214E611A9629560031EDAD /* realm_handsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50214E601A9629560031EDAD /* realm_handsonTests.swift */; };
+		50214E871A962B560031EDAD /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50214E7A1A962AB70031EDAD /* Realm.framework */; };
+		50214E891A962B880031EDAD /* Realm.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50214E7A1A962AB70031EDAD /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +25,83 @@
 			remoteGlobalIDString = 50214E441A9629560031EDAD;
 			remoteInfo = realm_handson;
 		};
+		50214E751A962AB70031EDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50214E6A1A962AB70031EDAD /* Realm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E8D89B981955FC6D00CF2B9A;
+			remoteInfo = OSX;
+		};
+		50214E771A962AB70031EDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50214E6A1A962AB70031EDAD /* Realm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E8D89BA31955FC6D00CF2B9A;
+			remoteInfo = "OSX Tests";
+		};
+		50214E791A962AB70031EDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50214E6A1A962AB70031EDAD /* Realm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E856D1D5195614A300FB2FCF;
+			remoteInfo = iOS;
+		};
+		50214E7B1A962AB70031EDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50214E6A1A962AB70031EDAD /* Realm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F6B897819EF3C06004E8EA8;
+			remoteInfo = "iOS 8";
+		};
+		50214E7D1A962AB70031EDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50214E6A1A962AB70031EDAD /* Realm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E856D1DF195614A400FB2FCF;
+			remoteInfo = "iOS Tests";
+		};
+		50214E7F1A962AB70031EDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50214E6A1A962AB70031EDAD /* Realm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F8DCA5719930F550008BD7F;
+			remoteInfo = "iOS Device Tests";
+		};
+		50214E811A962AB70031EDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50214E6A1A962AB70031EDAD /* Realm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F512DB619F9A1F300746016;
+			remoteInfo = "iOS 8 Tests";
+		};
+		50214E831A962AB70031EDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50214E6A1A962AB70031EDAD /* Realm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F1A5E721992EB7400F45F4C;
+			remoteInfo = TestHost;
+		};
+		50214E851A962B2A0031EDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50214E6A1A962AB70031EDAD /* Realm.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E856D1D4195614A300FB2FCF;
+			remoteInfo = iOS;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50214E881A962B610031EDAD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				50214E891A962B880031EDAD /* Realm.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		50214E451A9629560031EDAD /* realm_handson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realm_handson.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +114,7 @@
 		50214E5A1A9629560031EDAD /* realm_handsonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realm_handsonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50214E5F1A9629560031EDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50214E601A9629560031EDAD /* realm_handsonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realm_handsonTests.swift; sourceTree = "<group>"; };
+		50214E6A1A962AB70031EDAD /* Realm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Realm.xcodeproj; path = "../../../../Downloads/realm-cocoa-master/Realm.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50214E871A962B560031EDAD /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +157,7 @@
 		50214E471A9629560031EDAD /* realm_handson */ = {
 			isa = PBXGroup;
 			children = (
+				50214E6A1A962AB70031EDAD /* Realm.xcodeproj */,
 				50214E4A1A9629560031EDAD /* AppDelegate.swift */,
 				50214E4C1A9629560031EDAD /* ViewController.swift */,
 				50214E4E1A9629560031EDAD /* Main.storyboard */,
@@ -112,6 +193,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		50214E6B1A962AB70031EDAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50214E761A962AB70031EDAD /* Realm.framework */,
+				50214E781A962AB70031EDAD /* OSX Tests.xctest */,
+				50214E7A1A962AB70031EDAD /* Realm.framework */,
+				50214E7C1A962AB70031EDAD /* Realm.framework */,
+				50214E7E1A962AB70031EDAD /* iOS Tests.xctest */,
+				50214E801A962AB70031EDAD /* iOS Device Tests.xctest */,
+				50214E821A962AB70031EDAD /* iOS 8 Tests.xctest */,
+				50214E841A962AB70031EDAD /* TestHost.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +218,12 @@
 				50214E411A9629560031EDAD /* Sources */,
 				50214E421A9629560031EDAD /* Frameworks */,
 				50214E431A9629560031EDAD /* Resources */,
+				50214E881A962B610031EDAD /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				50214E861A962B2A0031EDAD /* PBXTargetDependency */,
 			);
 			name = realm_handson;
 			productName = realm_handson;
@@ -179,6 +277,12 @@
 			mainGroup = 50214E3C1A9629560031EDAD;
 			productRefGroup = 50214E461A9629560031EDAD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 50214E6B1A962AB70031EDAD /* Products */;
+					ProjectRef = 50214E6A1A962AB70031EDAD /* Realm.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				50214E441A9629560031EDAD /* realm_handson */,
@@ -186,6 +290,65 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		50214E761A962AB70031EDAD /* Realm.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Realm.framework;
+			remoteRef = 50214E751A962AB70031EDAD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50214E781A962AB70031EDAD /* OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "OSX Tests.xctest";
+			remoteRef = 50214E771A962AB70031EDAD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50214E7A1A962AB70031EDAD /* Realm.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Realm.framework;
+			remoteRef = 50214E791A962AB70031EDAD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50214E7C1A962AB70031EDAD /* Realm.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Realm.framework;
+			remoteRef = 50214E7B1A962AB70031EDAD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50214E7E1A962AB70031EDAD /* iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "iOS Tests.xctest";
+			remoteRef = 50214E7D1A962AB70031EDAD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50214E801A962AB70031EDAD /* iOS Device Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "iOS Device Tests.xctest";
+			remoteRef = 50214E7F1A962AB70031EDAD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50214E821A962AB70031EDAD /* iOS 8 Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "iOS 8 Tests.xctest";
+			remoteRef = 50214E811A962AB70031EDAD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50214E841A962AB70031EDAD /* TestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TestHost.app;
+			remoteRef = 50214E831A962AB70031EDAD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		50214E431A9629560031EDAD /* Resources */ = {
@@ -232,6 +395,11 @@
 			isa = PBXTargetDependency;
 			target = 50214E441A9629560031EDAD /* realm_handson */;
 			targetProxy = 50214E5B1A9629560031EDAD /* PBXContainerItemProxy */;
+		};
+		50214E861A962B2A0031EDAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOS;
+			targetProxy = 50214E851A962B2A0031EDAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -336,6 +504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = realm_handson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = realm_handson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
