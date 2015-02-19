@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50214E4B1A9629560031EDAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50214E4A1A9629560031EDAD /* AppDelegate.swift */; };
+		50214E4D1A9629560031EDAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50214E4C1A9629560031EDAD /* ViewController.swift */; };
+		50214E501A9629560031EDAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50214E4E1A9629560031EDAD /* Main.storyboard */; };
+		50214E521A9629560031EDAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50214E511A9629560031EDAD /* Images.xcassets */; };
+		50214E551A9629560031EDAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50214E531A9629560031EDAD /* LaunchScreen.xib */; };
+		50214E611A9629560031EDAD /* realm_handsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50214E601A9629560031EDAD /* realm_handsonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50214E5B1A9629560031EDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50214E3D1A9629560031EDAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50214E441A9629560031EDAD;
+			remoteInfo = realm_handson;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50214E451A9629560031EDAD /* realm_handson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realm_handson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50214E491A9629560031EDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50214E4A1A9629560031EDAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50214E4C1A9629560031EDAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50214E4F1A9629560031EDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50214E511A9629560031EDAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50214E541A9629560031EDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		50214E5A1A9629560031EDAD /* realm_handsonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realm_handsonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50214E5F1A9629560031EDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50214E601A9629560031EDAD /* realm_handsonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realm_handsonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50214E421A9629560031EDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50214E571A9629560031EDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50214E3C1A9629560031EDAD = {
+			isa = PBXGroup;
+			children = (
+				50214E471A9629560031EDAD /* realm_handson */,
+				50214E5D1A9629560031EDAD /* realm_handsonTests */,
+				50214E461A9629560031EDAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50214E461A9629560031EDAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50214E451A9629560031EDAD /* realm_handson.app */,
+				50214E5A1A9629560031EDAD /* realm_handsonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50214E471A9629560031EDAD /* realm_handson */ = {
+			isa = PBXGroup;
+			children = (
+				50214E4A1A9629560031EDAD /* AppDelegate.swift */,
+				50214E4C1A9629560031EDAD /* ViewController.swift */,
+				50214E4E1A9629560031EDAD /* Main.storyboard */,
+				50214E511A9629560031EDAD /* Images.xcassets */,
+				50214E531A9629560031EDAD /* LaunchScreen.xib */,
+				50214E481A9629560031EDAD /* Supporting Files */,
+			);
+			path = realm_handson;
+			sourceTree = "<group>";
+		};
+		50214E481A9629560031EDAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50214E491A9629560031EDAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50214E5D1A9629560031EDAD /* realm_handsonTests */ = {
+			isa = PBXGroup;
+			children = (
+				50214E601A9629560031EDAD /* realm_handsonTests.swift */,
+				50214E5E1A9629560031EDAD /* Supporting Files */,
+			);
+			path = realm_handsonTests;
+			sourceTree = "<group>";
+		};
+		50214E5E1A9629560031EDAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50214E5F1A9629560031EDAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50214E441A9629560031EDAD /* realm_handson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50214E641A9629560031EDAD /* Build configuration list for PBXNativeTarget "realm_handson" */;
+			buildPhases = (
+				50214E411A9629560031EDAD /* Sources */,
+				50214E421A9629560031EDAD /* Frameworks */,
+				50214E431A9629560031EDAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = realm_handson;
+			productName = realm_handson;
+			productReference = 50214E451A9629560031EDAD /* realm_handson.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50214E591A9629560031EDAD /* realm_handsonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50214E671A9629560031EDAD /* Build configuration list for PBXNativeTarget "realm_handsonTests" */;
+			buildPhases = (
+				50214E561A9629560031EDAD /* Sources */,
+				50214E571A9629560031EDAD /* Frameworks */,
+				50214E581A9629560031EDAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50214E5C1A9629560031EDAD /* PBXTargetDependency */,
+			);
+			name = realm_handsonTests;
+			productName = realm_handsonTests;
+			productReference = 50214E5A1A9629560031EDAD /* realm_handsonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50214E3D1A9629560031EDAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yasuzuki;
+				TargetAttributes = {
+					50214E441A9629560031EDAD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					50214E591A9629560031EDAD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 50214E441A9629560031EDAD;
+					};
+				};
+			};
+			buildConfigurationList = 50214E401A9629560031EDAD /* Build configuration list for PBXProject "realm_handson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50214E3C1A9629560031EDAD;
+			productRefGroup = 50214E461A9629560031EDAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50214E441A9629560031EDAD /* realm_handson */,
+				50214E591A9629560031EDAD /* realm_handsonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50214E431A9629560031EDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50214E501A9629560031EDAD /* Main.storyboard in Resources */,
+				50214E551A9629560031EDAD /* LaunchScreen.xib in Resources */,
+				50214E521A9629560031EDAD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50214E581A9629560031EDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50214E411A9629560031EDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50214E4D1A9629560031EDAD /* ViewController.swift in Sources */,
+				50214E4B1A9629560031EDAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50214E561A9629560031EDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50214E611A9629560031EDAD /* realm_handsonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50214E5C1A9629560031EDAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50214E441A9629560031EDAD /* realm_handson */;
+			targetProxy = 50214E5B1A9629560031EDAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50214E4E1A9629560031EDAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50214E4F1A9629560031EDAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50214E531A9629560031EDAD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50214E541A9629560031EDAD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50214E621A9629560031EDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50214E631A9629560031EDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50214E651A9629560031EDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = realm_handson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50214E661A9629560031EDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = realm_handson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50214E681A9629560031EDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = realm_handsonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realm_handson.app/realm_handson";
+			};
+			name = Debug;
+		};
+		50214E691A9629560031EDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = realm_handsonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realm_handson.app/realm_handson";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50214E401A9629560031EDAD /* Build configuration list for PBXProject "realm_handson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50214E621A9629560031EDAD /* Debug */,
+				50214E631A9629560031EDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50214E641A9629560031EDAD /* Build configuration list for PBXNativeTarget "realm_handson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50214E651A9629560031EDAD /* Debug */,
+				50214E661A9629560031EDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50214E671A9629560031EDAD /* Build configuration list for PBXNativeTarget "realm_handsonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50214E681A9629560031EDAD /* Debug */,
+				50214E691A9629560031EDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50214E3D1A9629560031EDAD /* Project object */;
+}
